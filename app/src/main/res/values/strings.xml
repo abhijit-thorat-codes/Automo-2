@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Automo</string>
+    <array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+</resources>

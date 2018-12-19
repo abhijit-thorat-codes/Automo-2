@@ -1,0 +1,30 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+		// Abhi nemo is ot going to put grass in from=ntof you so dont waste hyour time and just go to the room.
+		// Or the other way is to stay here and let her feel/think that you are here only for her. Maybe she will get a little affected by this small thing you are doing.
+		//But to make sure, you have to see whether she is here or not,if she is not here you are just wasting your time. Else you can go to the room and take some rest or start playing Counter strike. 
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
